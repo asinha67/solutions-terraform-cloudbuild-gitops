@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "health-compass-tfstate"
     prefix = "env/prod"
   }
 }
